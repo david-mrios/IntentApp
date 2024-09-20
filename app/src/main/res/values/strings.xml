@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">intentApp</string>
+    <string name="waitUp">Esperando un mensaje!</string>
+    <string name="btnMessage">Abrir Segunda Actividad</string>
+    <string name="shareMessage">Este es un mensaje para compartir</string>
+    <string name="btnShare">Compartir Mensaje</string>
+    <string name="headCall">Realizar llamadas</string>
+    <string name="headPageWeb">Abrir una Página Web\n</string>
+    <string name="btnName">Ir</string>
+</resources>
