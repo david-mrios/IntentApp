@@ -1,11 +1,12 @@
+
 <div align="center">
 
-# Actividad 1. Aplicando Intent
+# Actividad 1: Aplicando Intents
 
 ## Hecho por:
 
 <br/>
-<p> <strong> 1. David Antonio Membreño Ríos. </strong></p>
+<p><strong>1. David Antonio Membreño Ríos.</strong></p>
 <br/>
 
 <p align="center">
@@ -14,41 +15,40 @@
 
 </div>
 
+## Enlace del APK
+[Descargar APK](https://drive.google.com/drive/folders/1l_9d89IMfdxcXYHWMH1_bL1tsMXGxctw?usp=drive_link)
+
 ## Ejercicios de Binding y Llamadas al Sistema con Intents
-## Ejercicios
 
-### 1. Mostrar un Mensaje en un TextView
-- **Descripción:** Crea un proyecto en Android Studio con un layout que contenga un `TextView`. Utiliza Data Binding para vincular este `TextView` en tu actividad y establece un mensaje dinámico desde el código Kotlin.
+### Ejercicios
 
-### 2. Navegación entre Actividades
-- **Descripción:** Crea dos actividades. Desde la primera, usa un `Intent` para abrir la segunda actividad al presionar un botón. En la segunda actividad, muestra un mensaje de bienvenida.
+1. **Mostrar un Mensaje en un TextView**
+   - **Descripción:** Crea un proyecto en Android Studio con un layout que contenga un `TextView`. Utiliza Data Binding para vincular este `TextView` en tu actividad y establece un mensaje dinámico desde el código Kotlin.
 
-### 3. Compartir Contenido
-- **Descripción:** Agrega un botón a tu diseño y vincúlalo en tu actividad. Al presionar el botón, utiliza un `Intent` implícito para compartir un mensaje predefinido o el contenido del `TextView` de la primera actividad.
+2. **Navegación entre Actividades**
+   - **Descripción:** Crea dos actividades. Desde la primera, usa un `Intent` para abrir la segunda actividad al presionar un botón. En la segunda actividad, muestra un mensaje de bienvenida.
 
-### 4. Realizar una Llamada
-- **Descripción:** Agrega un `EditText` para que el usuario escriba un número de teléfono. Al presionar un botón, utiliza un `Intent` implícito para iniciar una llamada al número proporcionado.
+3. **Compartir Contenido**
+   - **Descripción:** Agrega un botón a tu diseño y vincúlalo en tu actividad. Al presionar el botón, utiliza un `Intent` implícito para compartir un mensaje predefinido o el contenido del `TextView` de la primera actividad.
 
-### 5. Abrir una Página Web
-- **Descripción:** Agrega un `EditText` para que el usuario escriba una URL. Al presionar un botón, utiliza un `Intent` implícito para abrir el navegador y cargar la URL.
+4. **Realizar una Llamada**
+   - **Descripción:** Agrega un `EditText` para que el usuario escriba un número de teléfono. Al presionar un botón, utiliza un `Intent` implícito para iniciar una llamada al número proporcionado.
 
-### 6. Envío de Correo Electrónico
-- **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir una aplicación de correo electrónico con un destinatario, asunto y cuerpo predefinidos.
+5. **Abrir una Página Web**
+   - **Descripción:** Agrega un `EditText` para que el usuario escriba una URL. Al presionar un botón, utiliza un `Intent` implícito para abrir el navegador y cargar la URL.
 
-- Seleccionar la aplicación de Gmail.
+6. **Envío de Correo Electrónico**
+   - **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir una aplicación de correo electrónico con un destinatario, asunto y cuerpo predefinidos. 
+   - **Nota:** Selecciona la aplicación de Gmail.
 
-### 7. Compartir Imágenes
-- **Descripción:** Agrega un `ImageView` a tu diseño. Al presionar un botón, utiliza un `Intent` implícito para compartir la imagen mostrada en el `ImageView` a través de aplicaciones disponibles.
+7. **Compartir Imágenes**
+   - **Descripción:** Agrega un `ImageView` a tu diseño. Al presionar un botón, utiliza un `Intent` implícito para compartir la imagen mostrada en el `ImageView` a través de aplicaciones disponibles.
 
-### 8. Obtener la Ubicación del Dispositivo
-- **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir una aplicación de mapas y mostrar la ubicación actual del dispositivo.
+8. **Obtener la Ubicación del Dispositivo**
+   - **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir una aplicación de mapas y mostrar la ubicación actual del dispositivo.
 
-### 9. Abrir Configuraciones del Dispositivo
-- **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir la pantalla de configuración del dispositivo.
+9. **Abrir Configuraciones del Dispositivo**
+   - **Descripción:** Agrega un botón a tu diseño. Al presionar este botón, utiliza un `Intent` implícito para abrir la pantalla de configuración del dispositivo.
 
-### 10. Reproducir un Video de YouTube
-
-- **Descripción:** Agrega un `EditText` para que el usuario escriba un ID de video de YouTube. Al presionar un botón, utiliza un `Intent` implícito para abrir la aplicación de YouTube y reproducir el video correspondiente.
-
-
-
+10. **Reproducir un Video de YouTube**
+    - **Descripción:** Agrega un `EditText` para que el usuario escriba un ID de video de YouTube. Al presionar un botón, utiliza un `Intent` implícito para abrir la aplicación de YouTube y reproducir el video correspondiente.
