@@ -15,9 +15,6 @@
 
 </div>
 
-## Enlace del APK
-[Descargar APK](https://drive.google.com/drive/folders/1l_9d89IMfdxcXYHWMH1_bL1tsMXGxctw?usp=drive_link)
-
 ## Ejercicios de Binding y Llamadas al Sistema con Intents
 
 ### Ejercicios
