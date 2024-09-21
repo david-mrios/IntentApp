@@ -53,3 +53,4 @@
 
 10. **Reproducir un Video de YouTube**
     - **Descripción:** Agrega un `EditText` para que el usuario escriba un ID de video de YouTube. Al presionar un botón, utiliza un `Intent` implícito para abrir la aplicación de YouTube y reproducir el video correspondiente.
+    - Nota: El ID del video es "lrhcAUhpzkI", que se encuentra en el enlace completo: https://www.youtube.com/watch?v=lrhcAUhpzkI&ab_channel=WatchMojoEspañol.
