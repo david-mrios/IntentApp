@@ -165,16 +165,20 @@ class SecondActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // 10. Reproducir un video de YouTube
+        // 10. Reproducir un video de YouTube atraves del id
         binding.btnPlayYouTube.setOnClickListener {
             val videoId = binding.etYouTubeId.text.toString()
             if (videoId.isNotEmpty()) {
-                val youtubeIntent = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
+                // Crear la URL completa utilizando solo el ID
+                val youtubeUrl = "https://www.youtube.com/watch?v=$videoId"
+                val youtubeIntent = Intent(Intent.ACTION_VIEW, Uri.parse(youtubeUrl))
                 startActivity(youtubeIntent)
             } else {
                 Toast.makeText(this, "Por favor, ingrese un ID de video de YouTube.", Toast.LENGTH_SHORT).show()
             }
         }
+
+
     }
 
     // Función para realizar la llamada telefónica
